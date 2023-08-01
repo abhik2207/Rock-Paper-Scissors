@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2ffbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+#gameDiv {
+    text-align: center;
+    border: 6px solid #000000;
+    background-color: #beffa3;
+    border-radius: 25px;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 3px 3px 30px #000000;
+}
+  
+.gameText {
+    font-size: 40px;
+    color: #000000;
+    text-shadow: 0px 0px 20px #000000;
+}
+  
+.choiceButton {
+    width: 120px;
+    height: 50px;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    background-color: #404040;
+    color: #beffa3;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+  
+  .choiceButton:hover {
+    background-color: #beffa3;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px;
+  }
+  
